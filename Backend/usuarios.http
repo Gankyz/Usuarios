@@ -1,0 +1,31 @@
+### Pagina feita utilizando REST client para teste de resposta do banco de dados
+### Criar úsuarios
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+  "email": "",
+  "name": "",
+  "age": ""
+}
+
+### Listar usuários
+GET http://localhost:3000/usuarios
+
+### Atualizar usuário
+PUT http://localhost:3000/usuarios/id
+Content-Type: application/json
+
+{
+  "name": "",
+  "age": "",
+  "email": ""
+}
+###
+### Deletar usuário
+DELETE http://localhost:3000/usuarios/id
+###
+### Buscar usuários por especificações
+GET http://localhost:3000/usuarios?
+Content-Type: application/json
+
