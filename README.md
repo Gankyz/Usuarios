@@ -1,17 +1,44 @@
-# CRUD de Usuários (React + Express + Prisma + MongoDB)
+# 🚀 CRUD de Usuários - Fullstack
 
-Projeto fullstack de um CRUD de usuários, com frontend em React e backend em Node.js + Express,
-usando Prisma como ORM e MongoDB como banco de dados.
+Aplicação Fullstack desenvolvida com Node.js, Express, Prisma, MongoDB e React.
 
-## Tecnologias
+## ✅ Funcionalidades
+- Criar usuários
+- Listar usuários
+- Atualizar usuários
+- Deletar usuários
 
-### Backend
-- Node.js
-- Express
-- Prisma ORM
-- MongoDB
+## 🛠 Tecnologias
+Backend: Node.js, Express, Prisma, MongoDB  
+Frontend: React, Vite, Axios  
 
-### Frontend
-- React
-- Axios
-- CSS
+## ⚙️ Como rodar
+
+### 1️⃣ Clone o repositório
+git clone https://github.com/Gankyz/Usuarios.git
+
+### 2️⃣ Backend
+cd Backend  
+npm install  
+
+Crie um arquivo .env com:
+DATABASE_URL="sua_string_mongodb"
+
+Depois rode:
+npx prisma generate  
+npx prisma db push  
+npm run dev  
+
+Backend: http://localhost:3000
+
+### 3️⃣ Frontend
+cd Frontend  
+npm install  
+npm run dev  
+
+Frontend: http://localhost:5173
+
+## 👨‍💻 Autor
+Leonardo Lemos  
+https://github.com/Gankyz
+
