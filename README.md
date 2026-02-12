@@ -1,4 +1,4 @@
-# 🚀 CRUD de Usuários - Fullstack
+#  CRUD de Usuários - Fullstack
 
 Aplicação Fullstack desenvolvida com Node.js, Express, Prisma, MongoDB e React.
 
